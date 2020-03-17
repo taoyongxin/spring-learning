@@ -55,7 +55,7 @@ public interface PostDao {
      * @param posts
      * @return
      */
-    int batchDelete(int[] posts);
+    int[] batchDelete(int[] posts);
 
     /**
      * 统计某个论坛的帖子的总数

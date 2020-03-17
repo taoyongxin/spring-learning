@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/BookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,23 +118,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.PostDaoTest.statisticsPost">
-    <configuration name="ForumDaoTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDaoTest" />
-      <option name="METHOD_NAME" value="batchInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PostDaoTest.batchDelete">
     <configuration name="PostDaoTest.batchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
@@ -192,13 +183,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostDaoTest.statisticsPost" />
-        <item itemvalue="JUnit.PostDaoTest.batchInsert" />
-        <item itemvalue="JUnit.ForumDaoTest.batchInsert" />
         <item itemvalue="JUnit.PostDaoTest.batchDelete" />
+        <item itemvalue="JUnit.PostDaoTest.batchInsert" />
+        <item itemvalue="JUnit.PostDaoTest.statisticsPost" />
         <item itemvalue="JUnit.PostDaoTest.getAllByKey" />
+        <item itemvalue="JUnit.PostDaoTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +219,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584419386135</updated>
-      <workItem from="1584419388445" duration="27311000" />
+      <workItem from="1584419388445" duration="30415000" />
+      <workItem from="1584450651755" duration="893000" />
     </task>
     <servers />
   </component>
@@ -236,46 +244,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584436145914" />
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584446140309">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584449169051">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446140309" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584449169051" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584427806621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584427806621" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584446928283">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1584451281714">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584446928283">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584451281714" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1584451281714">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584446928283">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584451281714" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1584451281714">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584446928283">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584451281714" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1584451281714">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
-    <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1584443770242">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584451281714" />
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1584450286501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
-    <state width="1493" height="320" key="GridCell.Tab.1.center" timestamp="1584443770242">
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
+    <state width="1493" height="320" key="GridCell.Tab.1.center" timestamp="1584450286501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
-    <state width="1493" height="320" key="GridCell.Tab.1.left" timestamp="1584443770242">
+    <state width="1493" height="320" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
+    <state width="1493" height="320" key="GridCell.Tab.1.left" timestamp="1584450286501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
-    <state width="1493" height="320" key="GridCell.Tab.1.right" timestamp="1584443770242">
+    <state width="1493" height="320" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
+    <state width="1493" height="320" key="GridCell.Tab.1.right" timestamp="1584450286501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
+    <state width="1493" height="320" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1584425485979">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

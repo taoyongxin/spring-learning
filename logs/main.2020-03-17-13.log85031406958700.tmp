@@ -1,0 +1,1 @@
+2020-03-17.13:08:21 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:22  Student{id=1802333117, name='Tom', hobbies=[篮球, 编程]}

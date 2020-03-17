@@ -17,8 +17,23 @@
                 <value>编程</value>
             </list>
         </property>
+
+        <property name="hobbiesSet">
+            <set>
+                <value>篮球</value>
+                <value>编程</value>
+            </set>
+        </property>
+
+        <property name="hobbiesMap">
+            <map>
+                <entry key="hobby" value="篮球"/>
+                <entry key="hobby" value="编程"/>
+            </map>
+        </property>
     </bean>
-    
+
+
     <context:component-scan base-package="com.soft1851.spring.ioc.config"/>
 
 </beans>

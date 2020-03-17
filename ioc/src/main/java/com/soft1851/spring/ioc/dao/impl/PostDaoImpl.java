@@ -83,12 +83,19 @@ public class PostDaoImpl implements PostDao {
 
 
     @Override
-    public int batchDelete(int[] posts) {
-        int i=0;
-        for(i=0;i<posts.length;i++){
-            delete(posts[i]);
-        }
-        return i;
+    public int[] batchDelete(int[] posts) {
+        String sql = "DELETE FROM t_post WHERE post_id = ? ";
+        return jdbcTemplate.batchUpdate(sql, new BatchPreparedStatementSetter() {
+            @Override
+            public void setValues(PreparedStatement preparedStatement, int i) throws SQLException {
+                preparedStatement.setInt(1,posts[i]);
+            }
+
+            @Override
+            public int getBatchSize() {
+                return posts.length;
+            }
+        });
     }
 
     @Override

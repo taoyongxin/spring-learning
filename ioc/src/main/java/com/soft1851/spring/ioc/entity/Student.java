@@ -1,6 +1,8 @@
 package com.soft1851.spring.ioc.entity;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author Tao
@@ -13,6 +15,8 @@ public class Student {
     private Integer id;
     private String name;
     private List<String> hobbies;
+    private Set<String> hobbiesSet;
+    private Map<String,String> hobbiesMap;
 
     @Override
     public String toString() {
@@ -20,7 +24,12 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", hobbies=" + hobbies +
+                ", hobbiesSet=" + hobbiesSet +
+                ", hobbiesMap=" + hobbiesMap +
                 '}';
+    }
+
+    public Student() {
     }
 
     public Integer getId() {
@@ -47,12 +56,27 @@ public class Student {
         this.hobbies = hobbies;
     }
 
-    public Student() {
+    public Set<String> getHobbiesSet() {
+        return hobbiesSet;
     }
 
-    public Student(Integer id, String name, List<String> hobbies) {
+    public void setHobbiesSet(Set<String> hobbiesSet) {
+        this.hobbiesSet = hobbiesSet;
+    }
+
+    public Map<String, String> getHobbiesMap() {
+        return hobbiesMap;
+    }
+
+    public void setHobbiesMap(Map<String, String> hobbiesMap) {
+        this.hobbiesMap = hobbiesMap;
+    }
+
+    public Student(Integer id, String name, List<String> hobbies, Set<String> hobbiesSet, Map<String, String> hobbiesMap) {
         this.id = id;
         this.name = name;
         this.hobbies = hobbies;
+        this.hobbiesSet = hobbiesSet;
+        this.hobbiesMap = hobbiesMap;
     }
 }
