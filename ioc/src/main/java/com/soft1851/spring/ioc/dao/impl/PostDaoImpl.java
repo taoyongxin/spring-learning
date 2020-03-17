@@ -80,20 +80,22 @@ public class PostDaoImpl implements PostDao {
         return jdbcTemplate.update(sql,args);
     }
 
-//    @Override
-//    public int[] batchDelete(List<Post> posts) {
-//        final List<Post> postList = posts;
-//        String sql = "DELETE FROM t_post WHERE post_id = ?";
-//        return jdbcTemplate.batchUpdate(sql, new BatchPreparedStatementSetter() {
-//            @Override
-//            public void setValues(PreparedStatement preparedStatement, int i) throws SQLException {
-//                preparedStatement.setInt(0,postList.get(i).getPostId());
-//            }
-//
-//            @Override
-//            public int getBatchSize() {
-//                return postList.size();
-//            }
-//        });
-//    }
+
+
+    @Override
+    public int batchDelete(int[] posts) {
+        int i=0;
+        for(i=0;i<posts.length;i++){
+            delete(posts[i]);
+        }
+        return i;
+    }
+
+    @Override
+    public int statisticsPost(int forumId) {
+        String sql = "SELECT * FROM t_post WHERE forum_id = ? ";
+        Object[] args = {forumId};
+        List<Post> postList = jdbcTemplate.query(sql,args, new BeanPropertyRowMapper<>(Post.class));
+        return postList.size();
+    }
 }

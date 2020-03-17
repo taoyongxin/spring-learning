@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" afterDir="false" />
@@ -104,8 +105,14 @@
       <recent name="F:\dev\spring-study\spring-learning\ioc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostDaoTest.getAllByKey">
-    <configuration name="ForumDaoTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="JUnit.PostDaoTest.statisticsPost">
+    <configuration name="ForumDaoTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +122,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDaoTest" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="METHOD_NAME" value="batchInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumDaoTest.seletcAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostDaoTest.batchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +137,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDaoTest" />
-      <option name="METHOD_NAME" value="seletcAll" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
+      <option name="METHOD_NAME" value="batchDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostDaoTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +153,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDaoTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,7 +176,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostDaoTest.statisticsPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
@@ -179,7 +186,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="METHOD_NAME" value="statisticsPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostDaoTest.statisticsPost" />
+        <item itemvalue="JUnit.PostDaoTest.batchInsert" />
+        <item itemvalue="JUnit.ForumDaoTest.batchInsert" />
+        <item itemvalue="JUnit.PostDaoTest.batchDelete" />
         <item itemvalue="JUnit.PostDaoTest.getAllByKey" />
-        <item itemvalue="JUnit.ForumDaoTest.seletcAll" />
-        <item itemvalue="JUnit.PostDaoTest.update" />
-        <item itemvalue="JUnit.ForumDaoTest.update" />
-        <item itemvalue="JUnit.ForumDaoTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584419386135</updated>
-      <workItem from="1584419388445" duration="24574000" />
+      <workItem from="1584419388445" duration="27311000" />
     </task>
     <servers />
   </component>
@@ -229,30 +236,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584436145914" />
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584438715008">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584446140309">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584438715008" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446140309" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584427806621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584427806621" />
-    <state width="1493" height="336" key="GridCell.Tab.0.bottom" timestamp="1584444331450">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584446928283">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
-    <state width="1493" height="336" key="GridCell.Tab.0.center" timestamp="1584444331450">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584446928283">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
-    <state width="1493" height="336" key="GridCell.Tab.0.left" timestamp="1584444331450">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584446928283">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
-    <state width="1493" height="336" key="GridCell.Tab.0.right" timestamp="1584444331450">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584446928283">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446928283" />
     <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1584443770242">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -277,18 +284,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="74" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584442113419" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584438754697">
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584446403143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584438754697" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446403143" />
     <state x="178" y="127" key="new project wizard" timestamp="1584419907790">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="178" y="127" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584419907790" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1584422368364">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1584446074094">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584422368364" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446074094" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584444168977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
