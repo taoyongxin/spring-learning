@@ -81,7 +81,7 @@ public class PostDaoTest {
 
     @Test
     public void batchDelete() {
-        int[] array = {2, 5};
+        int[] array = {2, 4};
         postDao.batchDelete(array);
     }
 
