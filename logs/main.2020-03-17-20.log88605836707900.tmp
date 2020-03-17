@@ -1,0 +1,2 @@
+2020-03-17.20:44:53 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:22  Student{id=1802333117, name='Tom', hobbies=[篮球, 编程], hobbiesSet=[篮球, 编程]}
+2020-03-17.20:48:36 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:22  Student{id=1802333117, name='Tom', hobbies=[篮球, 编程], hobbiesSet=[篮球, 编程], hobbiesMap={hobby=编程}}

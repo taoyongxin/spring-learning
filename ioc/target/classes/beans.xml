@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>
+    <bean id="phone1" class="com.soft1851.spring.ioc.entity.Phone" p:brand="iPhone 8p" p:price="6888.8"/>
+    <bean id="phone2" class="com.soft1851.spring.ioc.entity.Phone" p:brand="iPhone X" p:price="9888.8"/>
+
     <bean id="student" class="com.soft1851.spring.ioc.entity.Student">
         <property name="id" value="1802333117"/>
         <property name="name" value="Tom"/>
-        <property name="hobbies">
-            <list>
-                <value>篮球</value>
-                <value>编程</value>
-            </list>
-        </property>
 
         <property name="hobbiesSet">
             <set>
@@ -25,12 +22,21 @@
             </set>
         </property>
 
-        <property name="hobbiesMap">
+        <property name="phones">
+            <list>
+                <ref bean="phone1"/>
+                <ref bean="phone2"/>
+                <ref bean="phone2"/>
+            </list>
+        </property>
+
+        <property name="devices">
             <map>
-                <entry key="hobby" value="篮球"/>
-                <entry key="hobby" value="编程"/>
+                <entry key="8p" value-ref="phone1"/>
+                <entry key="x" value-ref="phone2"/>
             </map>
         </property>
+
     </bean>
 
 

@@ -14,22 +14,19 @@ import java.util.Set;
 public class Student {
     private Integer id;
     private String name;
-    private List<String> hobbies;
+    private List<Phone> phones;
     private Set<String> hobbiesSet;
-    private Map<String,String> hobbiesMap;
+    private Map<String,Phone> devices;
 
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", hobbies=" + hobbies +
+                ", phones=" + phones +
                 ", hobbiesSet=" + hobbiesSet +
-                ", hobbiesMap=" + hobbiesMap +
+                ", devices=" + devices +
                 '}';
-    }
-
-    public Student() {
     }
 
     public Integer getId() {
@@ -48,12 +45,12 @@ public class Student {
         this.name = name;
     }
 
-    public List<String> getHobbies() {
-        return hobbies;
+    public List<Phone> getPhones() {
+        return phones;
     }
 
-    public void setHobbies(List<String> hobbies) {
-        this.hobbies = hobbies;
+    public void setPhones(List<Phone> phones) {
+        this.phones = phones;
     }
 
     public Set<String> getHobbiesSet() {
@@ -64,19 +61,22 @@ public class Student {
         this.hobbiesSet = hobbiesSet;
     }
 
-    public Map<String, String> getHobbiesMap() {
-        return hobbiesMap;
+    public Map<String, Phone> getDevices() {
+        return devices;
     }
 
-    public void setHobbiesMap(Map<String, String> hobbiesMap) {
-        this.hobbiesMap = hobbiesMap;
+    public void setDevices(Map<String, Phone> devices) {
+        this.devices = devices;
     }
 
-    public Student(Integer id, String name, List<String> hobbies, Set<String> hobbiesSet, Map<String, String> hobbiesMap) {
+    public Student() {
+    }
+
+    public Student(Integer id, String name, List<Phone> phones, Set<String> hobbiesSet, Map<String, Phone> devices) {
         this.id = id;
         this.name = name;
-        this.hobbies = hobbies;
+        this.phones = phones;
         this.hobbiesSet = hobbiesSet;
-        this.hobbiesMap = hobbiesMap;
+        this.devices = devices;
     }
 }
