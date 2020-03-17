@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>
+    <bean id="student" class="com.soft1851.spring.ioc.entity.Student">
+        <property name="id" value="1802333117"/>
+        <property name="name" value="Tom"/>
+        <property name="hobbies">
+            <list>
+                <value>篮球</value>
+                <value>编程</value>
+            </list>
+        </property>
+    </bean>
+</beans>
