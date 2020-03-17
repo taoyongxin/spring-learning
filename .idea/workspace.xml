@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/RADME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/ForumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/ForumDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584419386135</updated>
-      <workItem from="1584419388445" duration="21965000" />
+      <workItem from="1584419388445" duration="24574000" />
     </task>
     <servers />
   </component>
@@ -254,26 +237,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584427806621" />
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1584440709280">
+    <state width="1493" height="336" key="GridCell.Tab.0.bottom" timestamp="1584444331450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584440709280" />
-    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1584440709280">
+    <state width="1493" height="336" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
+    <state width="1493" height="336" key="GridCell.Tab.0.center" timestamp="1584444331450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584440709280" />
-    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1584440709278">
+    <state width="1493" height="336" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
+    <state width="1493" height="336" key="GridCell.Tab.0.left" timestamp="1584444331450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584440709278" />
-    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1584440709280">
+    <state width="1493" height="336" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
+    <state width="1493" height="336" key="GridCell.Tab.0.right" timestamp="1584444331450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584440709280" />
+    <state width="1493" height="336" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444331450" />
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1584443770242">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
+    <state width="1493" height="320" key="GridCell.Tab.1.center" timestamp="1584443770242">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="320" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
+    <state width="1493" height="320" key="GridCell.Tab.1.left" timestamp="1584443770242">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="320" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
+    <state width="1493" height="320" key="GridCell.Tab.1.right" timestamp="1584443770242">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="320" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584443770242" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1584425485979">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584425485979" />
+    <state x="270" y="74" key="SettingsEditor" timestamp="1584442113419">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584442113419" />
     <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584438754697">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -286,10 +289,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584422368364" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584437790737">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584444168977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584437790737" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444168977" />
     <state x="449" y="115" key="spring file set editor" timestamp="1584422539984">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

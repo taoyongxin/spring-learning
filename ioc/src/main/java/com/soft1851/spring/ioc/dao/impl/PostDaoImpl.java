@@ -68,7 +68,7 @@ public class PostDaoImpl implements PostDao {
 
     @Override
     public List<Post> getAllByKey(String key1) {
-        String sql = "SELECT * FROM t_post WHERE title LIKE CONCAT('%',key1,'%')";
+        String sql = "SELECT * FROM t_post WHERE title LIKE '%"+key1+"%'";
         return jdbcTemplate.query(sql,new BeanPropertyRowMapper<>(Post.class));
     }
 

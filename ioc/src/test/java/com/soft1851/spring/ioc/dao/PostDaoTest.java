@@ -73,7 +73,8 @@ public class PostDaoTest {
 
     @Test
     public void getAllByKey() {
-        List<Post> postList = postDao.getAllByKey("测试");
+        List<Post> postList = postDao.getAllByKey("测试修改");
+        System.out.println(postList);
         assertEquals(3,postList.size());
     }
 
