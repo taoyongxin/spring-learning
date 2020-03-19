@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/app/SpringDataSourceConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/config/SpringDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/ForumAnnotatedDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/PostAnnotatedDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/ForumAnnotatedDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/PostAnnotatedDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/ForumAnnotatedDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/ForumDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/PostAnnotatedDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/PostDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/ForumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/ForumDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/PostDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/ForumDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/ForumDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/PostDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/entity/Forum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/ForumDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/PostDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/ForumDaoImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/ForumDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/PostDaoImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/PostDaoImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Forum$ForumBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Forum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Post$PostBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/ForumDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/PostDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +100,33 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\Maven_jar" />
-        <option name="mavenHome" value="E:/apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.2\apache-maven-3.6.2\conf\settings.xml" />
+        <option name="localRepository" value="F:\tools\maven_jar" />
+        <option name="mavenHome" value="F:/tools/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\tools\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZF09qEebwLg7vD1PmzXf00cjur" />
@@ -83,18 +145,33 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21149425" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1851.spring.orm.dao" />
       <recent name="com.soft1851.spring.ioc.dao" />
       <recent name="com.soft1851.spring.ioc.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft1851.spring.orm.app" />
+      <recent name="com.soft1851.spring.orm.config" />
+      <recent name="com.soft1851.spring.orm.dao.impl" />
+      <recent name="com.soft1851.spring.orm.entity" />
+      <recent name="com.soft1851.spring.orm.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dev\spring-study\spring-learning\orm\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -109,96 +186,186 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.PostDaoTest.statisticsPost">
-    <configuration name="PostDaoTest.batchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ForumAnnotatedDaoTest.insert">
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.BookTest" />
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.ioc.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="batchDelete" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataSourceConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.app.SpringDataSourceConfigTest" />
+      <module name="orm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.orm.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumAnnotatedDaoTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.orm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.orm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.dao.ForumAnnotatedDaoTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDaoTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
+    <configuration name="ForumAnnotatedDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.orm.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.orm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.dao.ForumAnnotatedDaoTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostAnnotatedDaoTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.orm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.orm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.dao.PostAnnotatedDaoTest" />
       <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDaoTest.getAllByKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="getAllByKey" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="mys" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-learning" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55210" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration name="PostDaoTest.statisticsPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="statisticsPost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.mys" />
+      <item itemvalue="JUnit.ForumAnnotatedDaoTest.insert" />
+      <item itemvalue="JUnit.ForumAnnotatedDaoTest.batchInsert" />
+      <item itemvalue="Application.SpringDataSourceConfigTest" />
+      <item itemvalue="Application.BookTest" />
+      <item itemvalue="JUnit.PostAnnotatedDaoTest.get" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostDaoTest.statisticsPost" />
-        <item itemvalue="JUnit.PostDaoTest.batchDelete" />
-        <item itemvalue="JUnit.PostDaoTest.getAllByKey" />
-        <item itemvalue="JUnit.PostDaoTest.update" />
-        <item itemvalue="JUnit.PostDaoTest.get" />
+        <item itemvalue="JUnit.ForumAnnotatedDaoTest.insert" />
+        <item itemvalue="Application.SpringDataSourceConfigTest" />
+        <item itemvalue="JUnit.PostAnnotatedDaoTest.get" />
+        <item itemvalue="Application.BookTest" />
+        <item itemvalue="JUnit.ForumAnnotatedDaoTest.batchInsert" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -212,7 +379,12 @@
       <updated>1584419386135</updated>
       <workItem from="1584419388445" duration="30415000" />
       <workItem from="1584450651755" duration="2754000" />
-      <workItem from="1584453537447" duration="40000" />
+      <workItem from="1584453537447" duration="104000" />
+      <workItem from="1584459091793" duration="1168000" />
+      <workItem from="1584576274365" duration="712000" />
+      <workItem from="1584577170951" duration="590000" />
+      <workItem from="1584577923961" duration="12169000" />
+      <workItem from="1584592845814" duration="11328000" />
     </task>
     <servers />
   </component>
@@ -224,93 +396,125 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Inspections/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584427776816" />
+    <state x="361" y="91" key="#Project_Structure" timestamp="1584593019624">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584593019624" />
     <state x="361" y="91" key="#SQL_Dialects" timestamp="1584439220775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#SQL_Dialects/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584439220775" />
-    <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584425475593">
+    <state x="145" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584586988450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584425475593" />
+    <state x="145" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584586988450" />
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584436145914">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584436145914" />
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584452543268">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584599556408">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584452543268" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584599556408" />
+    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584585603565">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584585603565" />
+    <state x="522" y="372" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1584586206407">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="522" y="372" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584586206407" />
     <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584452198885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584452198885" />
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584427806621">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584602362482">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584427806621" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584453574974">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584602362482" />
+    <state x="188" y="268" key="FileChooserDialogImpl" timestamp="1584600259234">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453574974" />
-    <state width="1242" height="274" key="GridCell.Tab.0.bottom" timestamp="1584453407767">
+    <state x="188" y="268" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584600259234" />
+    <state width="1242" height="210" key="GridCell.Tab.0.bottom" timestamp="1584604612140">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1242" height="274" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453407767" />
-    <state width="1242" height="274" key="GridCell.Tab.0.center" timestamp="1584453407767">
+    <state width="1242" height="210" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584604612140" />
+    <state width="1637" height="312" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584603679663" />
+    <state width="1242" height="210" key="GridCell.Tab.0.center" timestamp="1584604612140">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1242" height="274" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453407767" />
-    <state width="1242" height="274" key="GridCell.Tab.0.left" timestamp="1584453407767">
+    <state width="1242" height="210" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584604612140" />
+    <state width="1637" height="312" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584603679663" />
+    <state width="1242" height="210" key="GridCell.Tab.0.left" timestamp="1584604612140">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1242" height="274" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453407767" />
-    <state width="1242" height="274" key="GridCell.Tab.0.right" timestamp="1584453407767">
+    <state width="1242" height="210" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584604612140" />
+    <state width="1637" height="312" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584603679663" />
+    <state width="1242" height="210" key="GridCell.Tab.0.right" timestamp="1584604612140">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1242" height="274" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453407767" />
-    <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1584450286501">
+    <state width="1242" height="210" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584604612140" />
+    <state width="1637" height="312" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584603679663" />
+    <state width="1024" height="133" key="GridCell.Tab.1.bottom" timestamp="1584590621816">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
-    <state width="1493" height="320" key="GridCell.Tab.1.center" timestamp="1584450286501">
+    <state width="1024" height="133" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.1.center" timestamp="1584590621816">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
-    <state width="1493" height="320" key="GridCell.Tab.1.left" timestamp="1584450286501">
+    <state width="1024" height="133" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.1.left" timestamp="1584590621816">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
-    <state width="1493" height="320" key="GridCell.Tab.1.right" timestamp="1584450286501">
+    <state width="1024" height="133" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.1.right" timestamp="1584590621816">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="320" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584450286501" />
+    <state width="1024" height="133" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.2.bottom" timestamp="1584590621816">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1024" height="133" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.2.center" timestamp="1584590621816">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1024" height="133" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.2.left" timestamp="1584590621816">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1024" height="133" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
+    <state width="1024" height="133" key="GridCell.Tab.2.right" timestamp="1584590621816">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1024" height="133" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584590621816" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1584425485979">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584425485979" />
-    <state x="270" y="74" key="SettingsEditor" timestamp="1584453577673">
+    <state x="155" y="120" key="SettingsEditor" timestamp="1584600553385">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="74" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584453577673" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584446403143">
+    <state x="155" y="120" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584600553385" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584602165152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446403143" />
-    <state x="178" y="127" key="new project wizard" timestamp="1584419907790">
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584602165152" />
+    <state x="137" y="9" key="new project wizard" timestamp="1584585523412">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="127" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584419907790" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1584446074094">
+    <state x="137" y="9" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584585523412" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1584603310824">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584446074094" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584603310824" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584444168977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584444168977" />
-    <state x="449" y="115" key="spring file set editor" timestamp="1584422539984">
+    <state x="449" y="115" key="spring file set editor" timestamp="1584595429127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="449" y="115" key="spring file set editor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584422539984" />
+    <state x="449" y="115" key="spring file set editor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584595429127" />
   </component>
 </project>
