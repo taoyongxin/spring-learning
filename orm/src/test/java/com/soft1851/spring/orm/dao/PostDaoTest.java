@@ -59,7 +59,7 @@ public class PostDaoTest {
 
     @Test
     public void get() {
-        Post post = postDao.get(2);
+        Post post = postDao.get(10);
         assertNotNull(post);
     }
 

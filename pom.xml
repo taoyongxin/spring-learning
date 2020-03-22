@@ -29,6 +29,7 @@
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.30</slf4j.version>
         <druid.version>1.1.21</druid.version>
+        <fastjson.version>1.2.66</fastjson.version>
     </properties>
     <dependencies>
         <!-- Spring上下文模块,级联引入了aop、beans、core、expression-->
@@ -93,6 +94,32 @@
             <artifactId>druid</artifactId>
             <version>${druid.version}</version>
         </dependency>
+
+        <!--Spring事物-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!--Spring WebMvc 会级联引入Spring Web模块-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.fasterxml.jackson.core</groupId>-->
+<!--            <artifactId>jackson-databind</artifactId>-->
+<!--            <version>2.10.3</version>-->
+<!--        </dependency>-->
+
 
     </dependencies>
 </project>

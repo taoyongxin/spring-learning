@@ -47,7 +47,7 @@ public class ForumDaoTest {
 
     @Test
     public void get() {
-        Forum forum = forumDao.get(3);
+        Forum forum = forumDao.get(5);
         assertNotNull(forum);
         System.out.println(forum);
     }

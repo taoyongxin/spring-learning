@@ -61,7 +61,7 @@ public class PostAnnotatedDaoTest {
 
     @Test
     public void get() {
-        Post post = postAnnotatedDao.get(3);
+        Post post = postAnnotatedDao.get(10);
         assertNotNull(post);
         System.out.println(post);
     }
