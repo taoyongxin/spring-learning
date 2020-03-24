@@ -32,6 +32,17 @@
         <fastjson.version>1.2.66</fastjson.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>popper.js</artifactId>
+            <version>1.14.3</version>
+        </dependency>
+
         <!-- Spring上下文模块,级联引入了aop、beans、core、expression-->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -112,6 +123,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring5</artifactId>
+            <version>3.0.11.RELEASE</version>
         </dependency>
 
 <!--        <dependency>-->

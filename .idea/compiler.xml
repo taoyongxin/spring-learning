@@ -13,5 +13,8 @@
         <module name="aop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="web-annotation" target="1.11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
