@@ -55,8 +55,8 @@ public class JueJinSpider {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println(res);
-
+//            测试返回Json数据
+//            System.out.println(res);
 
             JSONObject jsonObject = JSONObject.parseObject(res);
             JSONArray list = jsonObject.getJSONObject("d").getJSONArray("list");
@@ -71,6 +71,7 @@ public class JueJinSpider {
                         .followersCount(json.getInteger("followersCount"))
                         .followed(json.getBoolean("followed"))
                         .build();
+                System.out.println(topic);
                 topics.add(topic);
             });
         }else {

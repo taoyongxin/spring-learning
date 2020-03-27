@@ -7,34 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/SpringDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/TopicDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/TopicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/TopicDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/TopicServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +110,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,6 +146,8 @@
       <recent name="com.soft1851.spring.orm.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\spider" />
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\entity" />
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
       <recent name="F:\dev\spring-study\spring-learning\orm\src\main\resources" />
     </key>
@@ -178,9 +158,9 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.JueJinSpider">
-    <configuration name="JueJinSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinSpider" />
+  <component name="RunManager" selected="Application.BiLiBiLiSpider">
+    <configuration name="BiLiBiLiSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.BiLiBiLiSpider" />
       <module name="web" />
       <extension name="coverage">
         <pattern>
@@ -192,17 +172,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopicDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JueJinSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinSpider" />
       <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.dao.TopicDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,20 +305,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TopicDaoTest" />
       <item itemvalue="Tomcat Server.my" />
       <item itemvalue="JUnit.TopicServiceTest.queryAll" />
       <item itemvalue="JUnit.TopicServiceTest.addTopic" />
       <item itemvalue="Application.JueJinSpider" />
       <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
+      <item itemvalue="Application.BiLiBiLiSpider" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiLiBiLiSpider" />
         <item itemvalue="Application.JueJinSpider" />
         <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
         <item itemvalue="JUnit.TopicServiceTest.addTopic" />
         <item itemvalue="JUnit.TopicServiceTest.queryAll" />
-        <item itemvalue="JUnit.TopicDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +374,7 @@
       <workItem from="1585060815667" duration="713000" />
       <workItem from="1585186675625" duration="87000" />
       <workItem from="1585186784704" duration="4694000" />
-      <workItem from="1585271735096" duration="16129000" />
+      <workItem from="1585271735096" duration="20190000" />
     </task>
     <servers />
   </component>
@@ -456,25 +434,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1585289082952">
+    <state width="1493" height="352" key="GridCell.Tab.0.bottom" timestamp="1585298119303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
+    <state width="1493" height="352" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
     <state width="1202" height="204" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1585289082952">
+    <state width="1493" height="352" key="GridCell.Tab.0.center" timestamp="1585298119303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
+    <state width="1493" height="352" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
     <state width="1202" height="204" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1585289082952">
+    <state width="1493" height="352" key="GridCell.Tab.0.left" timestamp="1585298119303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
+    <state width="1493" height="352" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
     <state width="1202" height="204" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1585289082952">
+    <state width="1493" height="352" key="GridCell.Tab.0.right" timestamp="1585298119303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
+    <state width="1493" height="352" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
     <state width="1202" height="204" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
     <state width="1202" height="204" key="GridCell.Tab.1.bottom" timestamp="1585060421963">
       <screen x="1920" y="0" width="1680" height="1050" />
@@ -528,10 +506,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="242" y="134" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585283612817" />
-    <state x="115" y="104" width="1040" height="694" key="SettingsEditor" timestamp="1585276229220">
+    <state x="115" y="104" width="1040" height="694" key="SettingsEditor" timestamp="1585289241659">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="115" y="104" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585276229220" />
+    <state x="115" y="104" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289241659" />
     <state x="2068" y="216" width="1040" height="694" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584798865790" />
     <state width="207" height="461" key="SqlResolveConfigurable" timestamp="1585275599142">
       <screen x="0" y="0" width="1536" height="864" />
