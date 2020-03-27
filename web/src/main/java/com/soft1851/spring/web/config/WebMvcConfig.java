@@ -49,7 +49,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
         engine.setTemplateResolver(templateResolver());
         return engine;
     }
-
     @Bean
     public ViewResolver viewResolver(){
         ThymeleafViewResolver resolver = new ThymeleafViewResolver();
@@ -57,5 +56,4 @@ public class WebMvcConfig implements WebMvcConfigurer {
         resolver.setCharacterEncoding("UTF-8");
         return resolver;
     }
-
 }

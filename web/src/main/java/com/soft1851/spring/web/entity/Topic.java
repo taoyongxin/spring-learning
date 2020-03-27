@@ -17,12 +17,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Topic {
-    private Integer id;
-    private String topicPic;
-    private String topTitle;
-    private String avatar;
-    private String author;
-    private String date;
-    private Integer likes;
-    private Integer comment;
+//    private Integer id;
+//    private String topicPic;
+//    private String topTitle;
+//    private String avatar;
+//    private String author;
+//    private String date;
+//    private Integer likes;
+//    private Integer comment;
+
+    private String id;
+    private String topicName;
+    private String topicIcon;
+    private String description;
+    private Integer msgCount;
+    private Integer followersCount;
+    private Boolean followed;
 }

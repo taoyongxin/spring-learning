@@ -7,52 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/SpringDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/TopicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/TopicDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/TopicDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/TopicServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/controller/ForumController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/dao/impl/ForumDaoImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/dao/impl/ForumDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/service/impl/ForumServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/springMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/springMVC-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Topic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/ForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/ForumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/ForumDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/ForumDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/ForumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/ForumServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/ForumDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/ForumServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/controller/ForumController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/dao/ForumDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/dao/impl/ForumDaoImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/dao/impl/ForumDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Forum$ForumBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Forum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/service/ForumService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/service/impl/ForumServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/util/ResponseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic$TopicBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Topic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/springMVC-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/test-classes/com/soft1851/spring/web/dao/ForumDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/test-classes/com/soft1851/spring/web/service/ForumServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +80,12 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="spring-beans.schema" />
         <option value="XML Properties File" />
-        <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Stylus File" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,7 +114,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZF09qEebwLg7vD1PmzXf00cjur" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -156,10 +140,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4085155" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -190,46 +174,82 @@
   </component>
   <component name="RestServicesNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="web" type="c588b436:RestServiceStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Tomcat Server.my">
-    <configuration name="PostAnnotatedDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm" />
+  <component name="RunManager" selected="Application.JueJinSpider">
+    <configuration name="JueJinSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinSpider" />
+      <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.orm.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.dao.PostAnnotatedDaoTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.web.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.dao.TopicDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicServiceTest.addTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
+      <option name="METHOD_NAME" value="addTopic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm" />
+    <configuration name="TopicServiceTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.orm.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.orm.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicServiceTest.queryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
+      <option name="METHOD_NAME" value="queryAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,14 +327,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PostAnnotatedDaoTest.insert" />
-      <item itemvalue="JUnit.PostDaoTest.insert" />
+      <item itemvalue="JUnit.TopicDaoTest" />
       <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="JUnit.TopicServiceTest.queryAll" />
+      <item itemvalue="JUnit.TopicServiceTest.addTopic" />
+      <item itemvalue="Application.JueJinSpider" />
+      <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostDaoTest.insert" />
-        <item itemvalue="JUnit.PostAnnotatedDaoTest.insert" />
+        <item itemvalue="Application.JueJinSpider" />
+        <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
+        <item itemvalue="JUnit.TopicServiceTest.addTopic" />
+        <item itemvalue="JUnit.TopicServiceTest.queryAll" />
+        <item itemvalue="JUnit.TopicDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -328,11 +354,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -371,6 +392,11 @@
       <workItem from="1585010309060" duration="5755000" />
       <workItem from="1585016109934" duration="5875000" />
       <workItem from="1585027403764" duration="22628000" />
+      <workItem from="1585060510405" duration="245000" />
+      <workItem from="1585060815667" duration="713000" />
+      <workItem from="1585186675625" duration="87000" />
+      <workItem from="1585186784704" duration="4694000" />
+      <workItem from="1585271735096" duration="16129000" />
     </task>
     <servers />
   </component>
@@ -378,30 +404,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="91" key="#Inspections" timestamp="1585018633594">
+    <state x="361" y="91" key="#Inspections" timestamp="1585275119423">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="91" key="#Inspections/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585018633594" />
+    <state x="361" y="91" key="#Inspections/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275119423" />
     <state x="361" y="91" key="#Project_Structure" timestamp="1584593019624">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Project_Structure/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584593019624" />
-    <state x="361" y="91" key="#SQL_Dialects" timestamp="1584439220775">
+    <state x="361" y="91" key="#SQL_Dialects" timestamp="1585274435664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="91" key="#SQL_Dialects/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584439220775" />
-    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585017851132">
+    <state x="361" y="91" key="#SQL_Dialects/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585274435664" />
+    <state x="361" y="91" key="#SQL_Resolution_Scopes" timestamp="1585275600585">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017851132" />
+    <state x="361" y="91" key="#SQL_Resolution_Scopes/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275600585" />
+    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585276000801">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585276000801" />
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584436145914">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584436145914" />
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1585011259846">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1585277778122">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585011259846" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585277778122" />
     <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584585603565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -414,10 +444,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="463" y="346" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584672443574" />
-    <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584452198885">
+    <state x="548" y="291" width="450" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585281715555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584452198885" />
+    <state x="548" y="291" width="450" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585281715555" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584602362482">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -426,25 +456,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1202" height="204" key="GridCell.Tab.0.bottom" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1585289082952">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="204" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
     <state width="1202" height="204" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.0.center" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1585289082952">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="204" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
     <state width="1202" height="204" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.0.left" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1585289082952">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="204" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
     <state width="1202" height="204" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.0.right" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1585289082952">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="204" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289082952" />
     <state width="1202" height="204" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
     <state width="1202" height="204" key="GridCell.Tab.1.bottom" timestamp="1585060421963">
       <screen x="1920" y="0" width="1680" height="1050" />
@@ -486,39 +516,47 @@
     </state>
     <state width="1202" height="204" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
     <state width="1202" height="204" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1584425485979">
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1585275979854">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584425485979" />
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275979854" />
     <state x="349" y="167" key="IDE.errors.dialog" timestamp="1584757906114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="349" y="167" key="IDE.errors.dialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584757906114" />
-    <state x="242" y="134" key="Maven.ArtifactSearchDialog" timestamp="1584674323761">
+    <state x="242" y="134" key="Maven.ArtifactSearchDialog" timestamp="1585283612817">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="242" y="134" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584674323761" />
-    <state x="151" y="3" width="1040" height="694" key="SettingsEditor" timestamp="1585017887366">
+    <state x="242" y="134" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585283612817" />
+    <state x="115" y="104" width="1040" height="694" key="SettingsEditor" timestamp="1585276229220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="151" y="3" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017887366" />
+    <state x="115" y="104" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585276229220" />
     <state x="2068" y="216" width="1040" height="694" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584798865790" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584677920572">
+    <state width="207" height="461" key="SqlResolveConfigurable" timestamp="1585275599142">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584677920572" />
+    <state width="207" height="461" key="SqlResolveConfigurable/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275599142" />
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585275945802">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275945802" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585288319452">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585288319452" />
     <state x="127" y="155" key="new project wizard" timestamp="1585016301395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="127" y="155" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585016301395" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1585017440665">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1585284025718">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017440665" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584666029148">
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585284025718" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585275819413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584666029148" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275819413" />
     <state x="402" y="179" key="spring file set editor" timestamp="1584672313723">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
