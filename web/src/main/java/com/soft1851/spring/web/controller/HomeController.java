@@ -1,27 +1,31 @@
 package com.soft1851.spring.web.controller;
 
+import com.soft1851.spring.web.entity.Book;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author Tao
- * @version 1.0
- * @ClassName HomeController
- * @Description TODO
- * @date 2020-03-24 9:46
- **/
-//@Controller
-//public class HomeController {
-//    @GetMapping("home")
-//    public String home(Model model){
-//        model.addAttribute("message","Hello Spring MVC");
-//        Book[] books = {
-//                new Book(1,"python","https://img.alicdn.com/imgextra/i4/3161150069/TB2uGEQHbuWBuNjSszgXXb8jVXa_!!3161150069.jpg_60x60q90.jpg"),
-//                new Book(2,"web","https://img.alicdn.com/imgextra/i4/1614846122/TB22EwVa3HqK1RjSZFEXXcGMXXa_!!1614846122.png_60x60q90.jpg"),
-//                new Book(3,"c++","https://img.alicdn.com/imgextra/i3/TB1eP5IJVXXXXctXpXXXXXXXXXX_!!2-item_pic.png_60x60q90.jpg")
-//        };
-//        List<Book> bookList = Arrays.asList(books);
-//        model.addAttribute("bookList",bookList);
-//        return "home";
-//    }
-//
+ */
+@Controller
+public class HomeController {
+    @GetMapping("home")
+    public String home(Model model){
+        model.addAttribute("message","Hello Spring MVC");
+        Book[] books = {
+                new Book(1,"python","https://img.alicdn.com/imgextra/i4/3161150069/TB2uGEQHbuWBuNjSszgXXb8jVXa_!!3161150069.jpg_60x60q90.jpg"),
+                new Book(2,"web","https://img.alicdn.com/imgextra/i4/1614846122/TB22EwVa3HqK1RjSZFEXXcGMXXa_!!1614846122.png_60x60q90.jpg"),
+                new Book(3,"c++","https://img.alicdn.com/imgextra/i3/TB1eP5IJVXXXXctXpXXXXXXXXXX_!!2-item_pic.png_60x60q90.jpg")
+        };
+        List<Book> bookList = Arrays.asList(books);
+        model.addAttribute("bookList",bookList);
+        return "home";
+    }
+
 //    @GetMapping("recommend")
 //    public String recommend(Model model){
 //        Topic[] topics = {
@@ -62,4 +66,4 @@ package com.soft1851.spring.web.controller;
 //        model.addAttribute("topicList",topicList);
 //        return "recommend";
 //    }
-//}
+}

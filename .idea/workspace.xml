@@ -7,12 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/BrochureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/JueJinBrochureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/BrochureDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/BrochureDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Brochure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/HotList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/BrochureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/BrochureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/brochure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/BrochureServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/recommend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/recommend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/recommend.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +90,11 @@
         <option value="XML Properties File" />
         <option value="CSS File" />
         <option value="Stylus File" />
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -88,6 +119,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -110,7 +142,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources/templates" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,7 +150,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4085155" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
@@ -131,13 +163,6 @@
       <recent name="com.soft1851.spring.ioc.dao" />
       <recent name="com.soft1851.spring.ioc.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
-      <recent name="F:\dev\spring-study\spring-learning\ioc\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1851.spring.web.dao.impl" />
       <recent name="com.soft1851.spring.web.dao" />
@@ -146,10 +171,18 @@
       <recent name="com.soft1851.spring.orm.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources\templates" />
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\controller" />
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\spider" />
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
-      <recent name="F:\dev\spring-study\spring-learning\orm\src\main\resources" />
+      <recent name="F:\dev\spring-study\spring-learning\ioc\src\main\resources" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -158,7 +191,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.BiLiBiLiSpider">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
     <configuration name="BiLiBiLiSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.BiLiBiLiSpider" />
       <module name="web" />
@@ -185,18 +218,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopicServiceTest.addTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JueJinXiaoCeSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinXiaoCeSpider" />
       <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
-      <option name="METHOD_NAME" value="addTopic" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZhiHuSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.ZhiHuSpider" />
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,23 +260,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopicServiceTest.queryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
-      <option name="METHOD_NAME" value="queryAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -242,7 +269,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-learning_6" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-learning_8" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -250,7 +277,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63677" />
+        <option name="DEBUG_PORT" value="50697" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -305,20 +332,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.my" />
-      <item itemvalue="JUnit.TopicServiceTest.queryAll" />
-      <item itemvalue="JUnit.TopicServiceTest.addTopic" />
-      <item itemvalue="Application.JueJinSpider" />
-      <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
       <item itemvalue="Application.BiLiBiLiSpider" />
+      <item itemvalue="Application.JueJinSpider" />
+      <item itemvalue="Application.ZhiHuSpider" />
+      <item itemvalue="Application.JueJinXiaoCeSpider" />
+      <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JueJinXiaoCeSpider" />
+        <item itemvalue="Application.ZhiHuSpider" />
         <item itemvalue="Application.BiLiBiLiSpider" />
-        <item itemvalue="Application.JueJinSpider" />
         <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
-        <item itemvalue="JUnit.TopicServiceTest.addTopic" />
-        <item itemvalue="JUnit.TopicServiceTest.queryAll" />
+        <item itemvalue="Application.JueJinSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +401,11 @@
       <workItem from="1585060815667" duration="713000" />
       <workItem from="1585186675625" duration="87000" />
       <workItem from="1585186784704" duration="4694000" />
-      <workItem from="1585271735096" duration="20190000" />
+      <workItem from="1585271735096" duration="43071000" />
+      <workItem from="1585357909750" duration="18320000" />
+      <workItem from="1585379692905" duration="1167000" />
+      <workItem from="1585382452118" duration="4592000" />
+      <workItem from="1585400970018" duration="81000" />
     </task>
     <servers />
   </component>
@@ -398,18 +429,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#SQL_Resolution_Scopes/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275600585" />
-    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585276000801">
+    <state x="193" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585382732794">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="226" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585276000801" />
+    <state x="193" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585382732794" />
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584436145914">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584436145914" />
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1585277778122">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1585365707430">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585277778122" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365707430" />
     <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584585603565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -430,74 +461,78 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584602362482" />
+    <state x="499" y="179" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585321340772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585321340772" />
     <state x="121" y="286" key="FileChooserDialogImpl" timestamp="1585017292297">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1493" height="352" key="GridCell.Tab.0.bottom" timestamp="1585298119303">
+    <state width="1637" height="316" key="GridCell.Tab.0.bottom" timestamp="1585387049856">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1637" height="316" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
+    <state width="1637" height="316" key="GridCell.Tab.0.center" timestamp="1585387049856">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1637" height="316" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
+    <state width="1637" height="316" key="GridCell.Tab.0.left" timestamp="1585387049856">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1637" height="316" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
+    <state width="1637" height="316" key="GridCell.Tab.0.right" timestamp="1585387049856">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1637" height="316" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
+    <state width="1321" height="284" key="GridCell.Tab.1.bottom" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1321" height="284" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="1321" height="284" key="GridCell.Tab.1.center" timestamp="1585387049852">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1321" height="284" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049852" />
+    <state width="1321" height="284" key="GridCell.Tab.1.left" timestamp="1585387049852">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1321" height="284" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049852" />
+    <state width="1321" height="284" key="GridCell.Tab.1.right" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1321" height="284" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="1321" height="284" key="GridCell.Tab.2.bottom" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402541" />
+    <state width="1321" height="284" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="1321" height="284" key="GridCell.Tab.2.center" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402541" />
+    <state width="1321" height="284" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="1321" height="284" key="GridCell.Tab.2.left" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402541" />
+    <state width="1321" height="284" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="1321" height="284" key="GridCell.Tab.2.right" timestamp="1585387049853">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1202" height="188" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402541" />
+    <state width="1321" height="284" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1585365238169">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="352" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
-    <state width="1202" height="204" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="352" key="GridCell.Tab.0.center" timestamp="1585298119303">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="352" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
-    <state width="1202" height="204" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="352" key="GridCell.Tab.0.left" timestamp="1585298119303">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="352" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
-    <state width="1202" height="204" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1493" height="352" key="GridCell.Tab.0.right" timestamp="1585298119303">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="352" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585298119303" />
-    <state width="1202" height="204" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.1.bottom" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="1202" height="204" key="GridCell.Tab.1.center" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.1.left" timestamp="1585060421962">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421962" />
-    <state width="1202" height="204" key="GridCell.Tab.1.right" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="1202" height="204" key="GridCell.Tab.2.bottom" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="1202" height="204" key="GridCell.Tab.2.center" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="1202" height="204" key="GridCell.Tab.2.left" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="1202" height="204" key="GridCell.Tab.2.right" timestamp="1585060421963">
-      <screen x="1920" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1202" height="204" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585057616929" />
-    <state width="1202" height="204" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585060421963" />
-    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1585275979854">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275979854" />
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365238169" />
     <state x="349" y="167" key="IDE.errors.dialog" timestamp="1584757906114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -506,31 +541,35 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="242" y="134" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585283612817" />
-    <state x="115" y="104" width="1040" height="694" key="SettingsEditor" timestamp="1585289241659">
+    <state x="14" y="14" width="1241" height="850" key="SettingsEditor" timestamp="1585383125400">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="115" y="104" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585289241659" />
+    <state x="14" y="14" width="1241" height="850" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585383125400" />
     <state x="2068" y="216" width="1040" height="694" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584798865790" />
     <state width="207" height="461" key="SqlResolveConfigurable" timestamp="1585275599142">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="207" height="461" key="SqlResolveConfigurable/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275599142" />
-    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585275945802">
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585365335411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275945802" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585288319452">
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365335411" />
+    <state x="339" y="77" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1585380532275">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585288319452" />
+    <state x="339" y="77" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585380532275" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585365774322">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365774322" />
     <state x="127" y="155" key="new project wizard" timestamp="1585016301395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="127" y="155" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585016301395" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1585284025718">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1585364728376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585284025718" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585364728376" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585275819413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

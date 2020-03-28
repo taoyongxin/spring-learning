@@ -16,15 +16,6 @@
     <title>主页</title>
 </head>
 <body>
-
-<h2>Spring MVC</h2>
-<p th:text="${message}"></p>
-
-<!--<div th:each="book:${bookList}">-->
-<!--    <p th:text="${book.name}">图书名称</p>-->
-<!--    <img th:src="${book.cover}"/>-->
-<!--</div>-->
-
 <div class="card" style="width: 18rem;"  th:each="book:${bookList}">
     <img th:src="${book.cover}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -33,6 +24,8 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
 </div>
-<button type="button" class="layui-btn layui-btn-warm">一个标准的按钮</button>
+<!--<div class="card1 mb-3" th:each="brochure:${brochureList}" >-->
+<!--    <h5 class="card-title" th:text="${brochure.title}"></h5>-->
+<!--</div>-->
 </body>
 </html>

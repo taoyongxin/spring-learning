@@ -43,12 +43,14 @@ public class JueJinSpider {
             e.printStackTrace();
         }
         // 测试输出状态行
-        // System.out.println(response.getStatusLine());
+         System.out.println(response.getStatusLine());
 
         //如果请求成功，则获取网页源码
         if(response.getStatusLine().getStatusCode() == SUCCESS){
             //获取相应对象实体，并转换成UTF-8字符串
             HttpEntity entity = response.getEntity();
+            //内容类型
+            System.out.println("***************************"+entity.getContentType());
             String res = null;
             try {
                 res = EntityUtils.toString(entity,"UTF-8");
@@ -87,7 +89,7 @@ public class JueJinSpider {
     }
 
     public static void main(String[] args) throws IOException {
-//        System.out.println(getTopics());
-        getTopics();
+        System.out.println(getTopics());
+//        getTopics();
     }
 }

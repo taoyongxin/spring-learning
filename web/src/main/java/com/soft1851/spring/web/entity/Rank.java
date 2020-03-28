@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Rank {
    private Integer id;
-   private String cover;
+   private String pic;
    private String title;
+   private String author;
+   private String duration;
 }
