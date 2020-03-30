@@ -7,42 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/BrochureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/JueJinBrochureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/TopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/BrochureDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/BrochureDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Brochure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/HotList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/BrochureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/BrochureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/brochure.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/BrochureServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/entity/Rank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/templates/recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank$RankBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/entity/Rank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/BiLiBiLiSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/recommend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/ZhiHuSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/ZhiHuSpider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +122,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4085155" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
@@ -191,70 +163,82 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
-    <configuration name="BiLiBiLiSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.BiLiBiLiSpider" />
-      <module name="web" />
+  <component name="RunManager" selected="JUnit.ForumServiceTest.selectForumById">
+    <configuration name="ForumServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JueJinSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinSpider" />
-      <module name="web" />
+    <configuration name="ForumServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JueJinXiaoCeSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.JueJinXiaoCeSpider" />
-      <module name="web" />
+    <configuration name="ForumServiceTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhiHuSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.ZhiHuSpider" />
-      <module name="web" />
+    <configuration name="ForumServiceTest.selectForumById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.spider.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="METHOD_NAME" value="selectForumById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopicServiceTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+    <configuration name="ForumServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
-      <option name="METHOD_NAME" value="batchInsert" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -331,21 +315,34 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BiLiBiLiSpider" />
-      <item itemvalue="Application.JueJinSpider" />
-      <item itemvalue="Application.ZhiHuSpider" />
-      <item itemvalue="Application.JueJinXiaoCeSpider" />
-      <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
+      <item itemvalue="JUnit.ForumServiceTest.insert" />
+      <item itemvalue="JUnit.ForumServiceTest.delete" />
+      <item itemvalue="JUnit.ForumServiceTest.update" />
+      <item itemvalue="JUnit.ForumServiceTest.selectAll" />
+      <item itemvalue="JUnit.ForumServiceTest.selectForumById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JueJinXiaoCeSpider" />
-        <item itemvalue="Application.ZhiHuSpider" />
-        <item itemvalue="Application.BiLiBiLiSpider" />
-        <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
-        <item itemvalue="Application.JueJinSpider" />
+        <item itemvalue="JUnit.ForumServiceTest.selectForumById" />
+        <item itemvalue="JUnit.ForumServiceTest.selectAll" />
+        <item itemvalue="JUnit.ForumServiceTest.update" />
+        <item itemvalue="JUnit.ForumServiceTest.delete" />
+        <item itemvalue="JUnit.ForumServiceTest.insert" />
       </list>
     </recent_temporary>
   </component>
@@ -406,6 +403,9 @@
       <workItem from="1585379692905" duration="1167000" />
       <workItem from="1585382452118" duration="4592000" />
       <workItem from="1585400970018" duration="81000" />
+      <workItem from="1585401510691" duration="772000" />
+      <workItem from="1585465559695" duration="2510000" />
+      <workItem from="1585575729645" duration="936000" />
     </task>
     <servers />
   </component>
@@ -417,10 +417,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Inspections/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275119423" />
-    <state x="361" y="91" key="#Project_Structure" timestamp="1584593019624">
+    <state x="361" y="91" key="#Project_Structure" timestamp="1585576325054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="91" key="#Project_Structure/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584593019624" />
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576325054" />
     <state x="361" y="91" key="#SQL_Dialects" timestamp="1585274435664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -441,10 +441,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365707430" />
-    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584585603565">
+    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585575771737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1584585603565" />
+    <state x="389" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585575771737" />
     <state x="522" y="372" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1584799569041">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -469,26 +469,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1637" height="316" key="GridCell.Tab.0.bottom" timestamp="1585387049856">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="166" key="GridCell.Tab.0.bottom" timestamp="1585576681379">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
-    <state width="1637" height="316" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
-    <state width="1637" height="316" key="GridCell.Tab.0.center" timestamp="1585387049856">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="166" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681379" />
+    <state width="1637" height="506" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
+    <state width="1493" height="166" key="GridCell.Tab.0.center" timestamp="1585576681378">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
-    <state width="1637" height="316" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
-    <state width="1637" height="316" key="GridCell.Tab.0.left" timestamp="1585387049856">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="166" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681378" />
+    <state width="1637" height="506" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
+    <state width="1493" height="166" key="GridCell.Tab.0.left" timestamp="1585576681378">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
-    <state width="1637" height="316" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
-    <state width="1637" height="316" key="GridCell.Tab.0.right" timestamp="1585387049856">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="166" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681378" />
+    <state width="1637" height="506" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122650" />
+    <state width="1493" height="166" key="GridCell.Tab.0.right" timestamp="1585576681379">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
-    <state width="1637" height="316" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049856" />
+    <state width="1493" height="166" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681379" />
+    <state width="1637" height="506" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
     <state width="1321" height="284" key="GridCell.Tab.1.bottom" timestamp="1585387049853">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
@@ -562,10 +562,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365774322" />
-    <state x="127" y="155" key="new project wizard" timestamp="1585016301395">
+    <state x="149" y="9" key="new project wizard" timestamp="1585576076356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="127" y="155" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585016301395" />
+    <state x="149" y="9" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576076356" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1585364728376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

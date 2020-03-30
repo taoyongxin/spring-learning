@@ -43,8 +43,10 @@ public class ZhiHuSpider {
                 HttpEntity entity = response.getEntity();
                 if(entity != null){
                     String res = EntityUtils.toString(entity);
-//                    System.out.println(res);
+                    System.out.println(res);
                     Document document = Jsoup.parse(res);
+//                    System.out.println(document);
+
                     Elements elements = document.getElementsByClass("SpecialListCard SpecialListPage-specialCard");
 //                    System.out.println("*************"+elements.size());
                     int i = 0;
@@ -77,9 +79,9 @@ public class ZhiHuSpider {
     }
 
     public static void main(String[] args) throws Exception{
-        for (HotList hotList:getHotList()){
-            System.out.println(hotList);
-        }
-//        getHotList();
+//        for (HotList hotList:getHotList()){
+//            System.out.println(hotList);
+//        }
+        getHotList();
     }
 }

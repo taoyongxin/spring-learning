@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--配置-->
+<configuration>
+    <!--属性-->
+<!--    <properties></properties>-->
+    <!--设置-->
+    <settings>
+        <!--设置启用数据库字段下划线映射到java对象的驼峰式命名属性，默认为false-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--类型命名-->
+<!--    <typeAliases></typeAliases>-->
+    <!--类型处理器-->
+<!--    <typeHandlers></typeHandlers>-->
+    <!--对象工厂-->
+<!--    <objectFactory type=""/>-->
+    <!--插件-->
+<!--    <plugins>-->
+<!--        <plugin interceptor=""></plugin>-->
+<!--    </plugins>-->
+    <!--配置环境-->
+<!--    <environments default="">-->
+        <!--环境变量-->
+<!--        <environment id="">-->
+            <!--事务管理器-->
+<!--            <transactionManager type=""></transactionManager>-->
+            <!--数据源-->
+<!--            <dataSource type="">-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+    <!--数据库厂商标识-->
+<!--    <databaseIdProvider type=""/>-->
+    <!--映射器-->
+<!--    <mapperss></mappers>-->
+</configuration>
