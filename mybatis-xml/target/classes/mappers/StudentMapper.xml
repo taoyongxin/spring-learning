@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1851.spring.mybatis.mapper.StudentMapper">
+    <insert id="insert" parameterType="Student" useGeneratedKeys="true" keyProperty="studentId">
+        INSERT INTO t_student (clazz_id,student_name,hometown,birthday)
+        VALUES (#{clazzId},#{studentName},#{hometown},#{birthday})
+    </insert>
+    <delete id="delete" parameterType="int">
+        DELETE
+        FROM t_student
+        WHERE student_id = #{studentId}
+    </delete>
+    <update id="update" parameterType="Student">
+        UPDATE t_student
+        SET student_name = #{studentName},
+            hometown = #{hometown},
+            birthday = #{birthday}
+        WHERE student_id = #{studentId}
+    </update>
+    <select id="getStudentById" parameterType="int" resultType="Student">
+        SELECT *
+        FROM t_student
+        WHERE student_id = #{id}
+    </select>
+    <insert id="batchInsert" parameterType="Student">
+        INSERT INTO t_student VALUES
+        <foreach collection="students" item="item" index="index" separator=",">
+            (#{item.studentId}, #{item.clazzId},#{item.studentName},#{item.hometown},#{item.birthday})
+        </foreach>
+    </insert>
+    <delete id="batchDelete" parameterType="int">
+        DELETE FROM t_student
+        WHERE student_id IN
+        <foreach item="item" index="index" collection='idList' open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <select id="selectLimit" resultType="Student">
+        SELECT student_id,clazz_id,student_name,hometown,birthday
+        FROM t_student
+        WHERE clazz_id=${2} AND hometown like '%江苏%'
+#      也可以这样'%${江苏}'
+    </select>
+
+    <select id="selectLimitByDynamicSql" parameterType="Student" resultType="Student">
+        SELECT student_id,clazz_id,student_name,hometown,birthday
+        FROM t_student
+        <where>
+            <if test="clazzId != null">
+                clazz_id = #{clazzId}
+            </if>
+            <if test="hometown != null">
+                AND hometown like "%"#{hometown}"%"
+            </if>
+            <if test="studentName != null">
+                AND student_name like #{studentName}
+            </if>
+        </where>
+    </select>
+<!--    <select id="selectLimitByDynamicSql" parameterType="Student" resultType="Student">-->
+<!--        SELECT student_id,clazz_id,student_name,hometown,birthday-->
+<!--        FROM t_student-->
+<!--        WHERE 1 = 1-->
+<!--        <choose>-->
+<!--            <when test="clazzId != null">-->
+<!--                AND clazz_id = #{clazzId}-->
+<!--            </when>-->
+<!--            <when test="hometown != null">-->
+<!--                AND hometown like "%"#{hometown}"%"-->
+<!--            </when>-->
+<!--            <otherwise>-->
+<!--                AND student_id &gt; ${0}-->
+<!--            </otherwise>-->
+<!--        </choose>-->
+<!--    </select>-->
+
+    <!--    查询所有学生，按生日排序，多对一关联学生所在班级信息-->
+    <resultMap id="studentMap" type="Student">
+        <id column="student_id" property="studentId"/>
+        <result column="student_name" property="studentName"/>
+        <result column="hometown" property="hometown"/>
+        <result column="birthday" property="birthday"/>
+        <association property="clazz" javaType="Clazz">
+            <id column="clazz_id" property="clazzId"/>
+            <result column="clazz_name" property="clazzName"/>
+        </association>
+    </resultMap>
+    <select id="selectAll" resultMap="studentMap">
+        SELECT s.student_id,s.student_name,s.hometown,s.birthday,c.clazz_name
+        FROM t_student s
+                 RIGHT JOIN t_clazz c
+                            ON s.clazz_id = c.clazz_id
+        ORDER BY s.birthday DESC
+    </select>
+</mapper>

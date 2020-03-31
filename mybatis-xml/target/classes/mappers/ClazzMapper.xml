@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1851.spring.mybatis.mapper.ClazzMapper">
+    <select id="getClazzStudent" parameterType="int" resultType="ClazzVo">
+        SELECT t1.*,t2.* FROM t_clazz t1
+        LEFT JOIN t_student t2
+        ON t1.clazz_id = t2.clazz_id
+        WHERE t1.clazz_id = #{clazzId}
+    </select>
+
+    <resultMap id="clazzMap" type="map">
+        <result property="clazzId" column="clazz_id"/>
+        <result property="clazzName" column="clazz_name"/>
+        <result property="studentId" column="student_id"/>
+        <result property="studentName" column="student_name"/>
+    </resultMap>
+    <select id="getClazzStudent1" parameterType="int" resultMap="clazzMap">
+        SELECT t1.clazz_id,t1.clazz_name,t2.student_id,t2.student_name FROM t_clazz t1
+        LEFT JOIN t_student t2
+        ON t1.clazz_id = t2.clazz_id
+        WHERE t1.clazz_id = #{clazzId}
+    </select>
+
+    <select id="selectLimitFromTeacherInClassByDynamicSql" parameterType="MatterDto" resultType="MatterVo">
+        SELECT t.teacher_name,c.clazz_name,s.student_name,s.hometown,s.birthday
+        FROM t_teacher t ,t_clazz c ,t_student s
+        WHERE t.clazz_id = c.clazz_id AND c.clazz_id = s.clazz_id
+        <if test="teacherName != null and clazzName != null and studentName != null">
+            AND teacher_name like "%"#{teacherName}"%"
+            AND clazz_name like "%"#{clazzName}"%"
+            AND student_name like "%"#{studentName}"%"
+        </if>
+    </select>
+
+<!--    根据clazzId一对多关联查询本班所有学生-->
+    <resultMap id="clazzMap1" type="Clazz">
+        <id column="clazz_id" property="clazzId"/>
+        <result column="clazz_name" property="clazzName"/>
+        <collection property="students" ofType="Student">
+            <id column="student_id" property="studentId"/>
+            <result column="student_name" property="studentName"/>
+            <result column="hometown" property="hometown"/>
+            <result column="birthday" property="birthday"/>
+        </collection>
+    </resultMap>
+    <select id="getClazzOneToMany" parameterType="int" resultMap="clazzMap1">
+        SELECT c.clazz_id,c.clazz_name,s.student_id,s.student_name,s.hometown,s.birthday
+        FROM t_clazz c,
+             t_student s
+        WHERE c.clazz_id = #{clazzId}
+        AND c.clazz_id = s.clazz_id
+    </select>
+
+
+
+</mapper>

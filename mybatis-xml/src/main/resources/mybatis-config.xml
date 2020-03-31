@@ -6,7 +6,20 @@
 <configuration>
     <settings>
         <!--设置启用数据库字段下划线映射到java对象的驼峰式命名属性，默认为false-->
+<!--        mybatis-config.xml开启驼峰式映射配置-->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 
+    <!--类型命名-->
+    <typeAliases>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.Forum" alias="Forum"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.Teacher" alias="Teacher"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.Clazz" alias="Clazz"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.Student" alias="Student"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.Course" alias="Course"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.CourseStudent" alias="CourseStudent"/>
+        <typeAlias type="com.soft1851.spring.mybatis.vo.ClazzVo" alias="ClazzVo"/>
+        <typeAlias type="com.soft1851.spring.mybatis.dto.MatterDto" alias="MatterDto"/>
+        <typeAlias type="com.soft1851.spring.mybatis.vo.MatterVo" alias="MatterVo"/>
+    </typeAliases>
 </configuration>

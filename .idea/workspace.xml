@@ -7,14 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/dto/MatterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/CourseStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/ClazzMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/vo/ClazzVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/vo/MatterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ClazzMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/ClazzMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/CourseMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/TeacherMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ForumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ForumMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/ForumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/ForumMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/spider/ZhiHuSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/JueJinXiaoCeSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/ZhiHuSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/soft1851/spring/web/spider/ZhiHuSpider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +76,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="spring-beans.schema" />
         <option value="XML Properties File" />
         <option value="CSS File" />
         <option value="Stylus File" />
-        <option value="Interface" />
         <option value="Kotlin File" />
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -129,11 +150,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1851.spring.mybatis.mapper" />
       <recent name="com.soft1851.spring.web.service" />
       <recent name="com.soft1851.spring.web.dao" />
       <recent name="com.soft1851.spring.orm.dao" />
       <recent name="com.soft1851.spring.ioc.dao" />
-      <recent name="com.soft1851.spring.ioc.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
+      <recent name="F:\dev\spring-study\spring-learning\ioc\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1851.spring.web.dao.impl" />
@@ -149,13 +177,6 @@
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\spider" />
       <recent name="F:\dev\spring-study\spring-learning\web\src\main\java\com\soft1851\spring\web\entity" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\dev\spring-study\spring-learning\web\src\main\resources" />
-      <recent name="F:\dev\spring-study\spring-learning\ioc\src\main\resources" />
-    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -163,82 +184,82 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.ForumServiceTest.selectForumById">
-    <configuration name="ForumServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CourseMapperTest.getCourseById">
+    <configuration name="ClazzMapperTest.getClazzOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.ClazzMapperTest" />
+      <option name="METHOD_NAME" value="getClazzOneToMany" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClazzMapperTest.getClazzStudent1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.ClazzMapperTest" />
+      <option name="METHOD_NAME" value="getClazzStudent1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumServiceTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseMapperTest.getCourseById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.CourseMapperTest" />
+      <option name="METHOD_NAME" value="getCourseById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.StudentMapperTest" />
       <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumServiceTest.selectForumById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherMapperTest.getTeacherOneToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
-      <option name="METHOD_NAME" value="selectForumById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.TeacherMapperTest" />
+      <option name="METHOD_NAME" value="getTeacherOneToOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,19 +351,19 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
-      <item itemvalue="JUnit.ForumServiceTest.insert" />
-      <item itemvalue="JUnit.ForumServiceTest.delete" />
-      <item itemvalue="JUnit.ForumServiceTest.update" />
-      <item itemvalue="JUnit.ForumServiceTest.selectAll" />
-      <item itemvalue="JUnit.ForumServiceTest.selectForumById" />
+      <item itemvalue="JUnit.ClazzMapperTest.getClazzStudent1" />
+      <item itemvalue="JUnit.TeacherMapperTest.getTeacherOneToOne" />
+      <item itemvalue="JUnit.ClazzMapperTest.getClazzOneToMany" />
+      <item itemvalue="JUnit.StudentMapperTest.selectAll" />
+      <item itemvalue="JUnit.CourseMapperTest.getCourseById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForumServiceTest.selectForumById" />
-        <item itemvalue="JUnit.ForumServiceTest.selectAll" />
-        <item itemvalue="JUnit.ForumServiceTest.update" />
-        <item itemvalue="JUnit.ForumServiceTest.delete" />
-        <item itemvalue="JUnit.ForumServiceTest.insert" />
+        <item itemvalue="JUnit.CourseMapperTest.getCourseById" />
+        <item itemvalue="JUnit.StudentMapperTest.selectAll" />
+        <item itemvalue="JUnit.ClazzMapperTest.getClazzOneToMany" />
+        <item itemvalue="JUnit.TeacherMapperTest.getTeacherOneToOne" />
+        <item itemvalue="JUnit.ClazzMapperTest.getClazzStudent1" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +426,9 @@
       <workItem from="1585400970018" duration="81000" />
       <workItem from="1585401510691" duration="772000" />
       <workItem from="1585465559695" duration="2510000" />
-      <workItem from="1585575729645" duration="936000" />
+      <workItem from="1585575729645" duration="1209000" />
+      <workItem from="1585577471463" duration="2401000" />
+      <workItem from="1585615205631" duration="26237000" />
     </task>
     <servers />
   </component>
@@ -469,45 +492,45 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1493" height="166" key="GridCell.Tab.0.bottom" timestamp="1585576681379">
+    <state width="1493" height="120" key="GridCell.Tab.0.bottom" timestamp="1585656223614">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681379" />
+    <state width="1493" height="120" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
     <state width="1637" height="506" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
-    <state width="1493" height="166" key="GridCell.Tab.0.center" timestamp="1585576681378">
+    <state width="1493" height="120" key="GridCell.Tab.0.center" timestamp="1585656223614">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681378" />
+    <state width="1493" height="120" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
     <state width="1637" height="506" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
-    <state width="1493" height="166" key="GridCell.Tab.0.left" timestamp="1585576681378">
+    <state width="1493" height="120" key="GridCell.Tab.0.left" timestamp="1585656223614">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681378" />
+    <state width="1493" height="120" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
     <state width="1637" height="506" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122650" />
-    <state width="1493" height="166" key="GridCell.Tab.0.right" timestamp="1585576681379">
+    <state width="1493" height="120" key="GridCell.Tab.0.right" timestamp="1585656223614">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="166" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576681379" />
+    <state width="1493" height="120" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
     <state width="1637" height="506" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
-    <state width="1321" height="284" key="GridCell.Tab.1.bottom" timestamp="1585387049853">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1585643722971">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1493" height="320" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585643722971" />
     <state width="1321" height="284" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
-    <state width="1321" height="284" key="GridCell.Tab.1.center" timestamp="1585387049852">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="320" key="GridCell.Tab.1.center" timestamp="1585643722970">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1493" height="320" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585643722970" />
     <state width="1321" height="284" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049852" />
-    <state width="1321" height="284" key="GridCell.Tab.1.left" timestamp="1585387049852">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="320" key="GridCell.Tab.1.left" timestamp="1585643722970">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1493" height="320" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585643722970" />
     <state width="1321" height="284" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049852" />
-    <state width="1321" height="284" key="GridCell.Tab.1.right" timestamp="1585387049853">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1493" height="320" key="GridCell.Tab.1.right" timestamp="1585643722970">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1202" height="188" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585385402540" />
+    <state width="1493" height="320" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585643722970" />
     <state width="1321" height="284" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585387049853" />
     <state width="1321" height="284" key="GridCell.Tab.2.bottom" timestamp="1585387049853">
       <screen x="1920" y="0" width="1680" height="1050" />
@@ -541,39 +564,40 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="242" y="134" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585283612817" />
-    <state x="14" y="14" width="1241" height="850" key="SettingsEditor" timestamp="1585383125400">
+    <state x="14" y="14" width="1241" height="850" key="SettingsEditor" timestamp="1585641674772">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="14" y="14" width="1241" height="850" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585383125400" />
+    <state x="14" y="14" width="1241" height="850" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585641674772" />
     <state x="2068" y="216" width="1040" height="694" key="SettingsEditor/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1584798865790" />
     <state width="207" height="461" key="SqlResolveConfigurable" timestamp="1585275599142">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="207" height="461" key="SqlResolveConfigurable/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275599142" />
-    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585365335411">
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585636605274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365335411" />
+    <state x="485" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585636605274" />
     <state x="339" y="77" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1585380532275">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="339" y="77" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585380532275" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585365774322">
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585655664457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585365774322" />
-    <state x="149" y="9" key="new project wizard" timestamp="1585576076356">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585655664457" />
+    <state x="2080" y="154" key="new project wizard" timestamp="1585580060844">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="149" y="9" key="new project wizard/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585576076356" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1585364728376">
+    <state x="2080" y="154" key="new project wizard/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585580060844" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1585651439209">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585364728376" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585275819413">
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585651439209" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585654823639">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585275819413" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585654823639" />
     <state x="402" y="179" key="spring file set editor" timestamp="1584672313723">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
