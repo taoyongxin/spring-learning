@@ -1,7 +1,6 @@
 package com.soft1851.spring.mybatis.mapper;
 
 import com.soft1851.spring.mybatis.entity.Clazz;
-import com.soft1851.spring.mybatis.entity.Student;
 import com.soft1851.spring.mybatis.vo.ClazzVo;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -40,7 +39,5 @@ public interface ClazzMapper {
      * @return
      */
     Clazz getClazzOneToMany(int clazzId);
-
-
 
 }

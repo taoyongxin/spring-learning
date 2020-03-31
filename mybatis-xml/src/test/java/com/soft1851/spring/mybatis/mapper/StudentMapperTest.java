@@ -31,7 +31,7 @@ public class StudentMapperTest {
 
     @Test
     public void delete() {
-        studentMapper.delete(2010);
+        studentMapper.delete(4011);
     }
 
 
@@ -44,13 +44,13 @@ public class StudentMapperTest {
 
     @Test
     public void update() {
-        Student student= studentMapper.getStudentById(2011);
+        Student student= studentMapper.getStudentById(4012);
         System.out.println(student);
-        student.setStudentName("测试姓名");
-        student.setHometown("江苏某地");
+        student.setStudentName("陶永新");
+        student.setHometown("江苏南京");
         student.setBirthday(LocalDate.of(1991,11,12));
         studentMapper.update(student);
-        System.out.println(studentMapper.getStudentById(2011));
+        System.out.println(studentMapper.getStudentById(4012));
     }
 
     @Test
@@ -104,5 +104,20 @@ public class StudentMapperTest {
                     ","+student.getBirthday()+
                     ","+student.getClazz().getClazzName());
         });
+    }
+
+    @Test
+    public void batchUpdate() {
+        List<Student> list = new ArrayList<>();
+        for (int i = 1;i<6;i++){
+            Student student = Student.builder()
+                    .studentId(4000+i)
+                    .studentName("测试444"+i)
+                    .clazzId(3)
+                    .build();
+            list.add(student);
+        }
+        int n = studentMapper.batchUpdate(list);
+        System.out.println(n);
     }
 }

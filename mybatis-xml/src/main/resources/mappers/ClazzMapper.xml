@@ -51,7 +51,4 @@
         WHERE c.clazz_id = #{clazzId}
         AND c.clazz_id = s.clazz_id
     </select>
-
-
-
 </mapper>

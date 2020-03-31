@@ -7,32 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4031aa9-5618-4247-8807-5bcc1795c39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/dto/MatterDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/CourseStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/ClazzMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/vo/ClazzVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/vo/MatterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ClazzMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/ClazzMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/CourseMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/TeacherMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ForumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ForumMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/ForumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/ForumMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/ClazzMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/ClazzMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ClazzMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ClazzMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/com/soft1851/spring/mybatis/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/com/soft1851/spring/mybatis/mapper/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/classes/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/target/test-classes/com/soft1851/spring/mybatis/mapper/StudentMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/target/test-classes/com/soft1851/spring/mybatis/mapper/StudentMapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +411,7 @@
       <workItem from="1585465559695" duration="2510000" />
       <workItem from="1585575729645" duration="1209000" />
       <workItem from="1585577471463" duration="2401000" />
-      <workItem from="1585615205631" duration="26237000" />
+      <workItem from="1585615205631" duration="31463000" />
     </task>
     <servers />
   </component>
@@ -492,25 +475,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585017292297" />
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom" timestamp="1585656223614">
+    <state width="1493" height="394" key="GridCell.Tab.0.bottom" timestamp="1585661736053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
+    <state width="1493" height="394" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585661736053" />
     <state width="1637" height="506" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
-    <state width="1493" height="120" key="GridCell.Tab.0.center" timestamp="1585656223614">
+    <state width="1493" height="394" key="GridCell.Tab.0.center" timestamp="1585661736052">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
+    <state width="1493" height="394" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585661736052" />
     <state width="1637" height="506" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
-    <state width="1493" height="120" key="GridCell.Tab.0.left" timestamp="1585656223614">
+    <state width="1493" height="394" key="GridCell.Tab.0.left" timestamp="1585661736052">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
+    <state width="1493" height="394" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585661736052" />
     <state width="1637" height="506" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122650" />
-    <state width="1493" height="120" key="GridCell.Tab.0.right" timestamp="1585656223614">
+    <state width="1493" height="394" key="GridCell.Tab.0.right" timestamp="1585661736052">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585656223614" />
+    <state width="1493" height="394" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585661736052" />
     <state width="1637" height="506" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1680.1050@1920.0.1680.1050" timestamp="1585466122651" />
     <state width="1493" height="320" key="GridCell.Tab.1.bottom" timestamp="1585643722971">
       <screen x="0" y="0" width="1536" height="864" />
@@ -581,10 +564,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="339" y="77" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585380532275" />
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585655664457">
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585660360872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585655664457" />
+    <state x="526" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1585660360872" />
     <state x="2080" y="154" key="new project wizard" timestamp="1585580060844">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>

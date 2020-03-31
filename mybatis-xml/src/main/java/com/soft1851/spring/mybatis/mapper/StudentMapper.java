@@ -51,6 +51,12 @@ public interface StudentMapper {
     int batchDelete(@Param("idList") List<Integer> idList);
 
     /**
+     * 批量修改
+     * @param students
+     * @return
+     */
+    int batchUpdate(@Param("students") List<Student> students);
+    /**
      * 单表（带两个指定条件）查询
      * @return
      */

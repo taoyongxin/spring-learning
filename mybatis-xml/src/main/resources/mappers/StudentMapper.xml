@@ -6,11 +6,13 @@
         INSERT INTO t_student (clazz_id,student_name,hometown,birthday)
         VALUES (#{clazzId},#{studentName},#{hometown},#{birthday})
     </insert>
+<!--    单表删除-->
     <delete id="delete" parameterType="int">
         DELETE
         FROM t_student
         WHERE student_id = #{studentId}
     </delete>
+<!--    单表修改-->
     <update id="update" parameterType="Student">
         UPDATE t_student
         SET student_name = #{studentName},
@@ -18,17 +20,20 @@
             birthday = #{birthday}
         WHERE student_id = #{studentId}
     </update>
+<!--    单表查询-->
     <select id="getStudentById" parameterType="int" resultType="Student">
         SELECT *
         FROM t_student
         WHERE student_id = #{id}
     </select>
+<!--    批量新增-->
     <insert id="batchInsert" parameterType="Student">
         INSERT INTO t_student VALUES
         <foreach collection="students" item="item" index="index" separator=",">
             (#{item.studentId}, #{item.clazzId},#{item.studentName},#{item.hometown},#{item.birthday})
         </foreach>
     </insert>
+<!--    批量删除-->
     <delete id="batchDelete" parameterType="int">
         DELETE FROM t_student
         WHERE student_id IN
@@ -36,6 +41,16 @@
             #{item}
         </foreach>
     </delete>
+<!--    批量更新-->
+    <update id="batchUpdate" parameterType="java.util.List">
+        <foreach collection="student" item="item" index="index" open="" close="" separator=";">
+            UPDATE t_student
+               <set>
+                   t.student_name = #{item.studentName}
+               </set>
+            WHERE t.student_id = ${item.studentId}
+        </foreach>
+    </update>
     <select id="selectLimit" resultType="Student">
         SELECT student_id,clazz_id,student_name,hometown,birthday
         FROM t_student
